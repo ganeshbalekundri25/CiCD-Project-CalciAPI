@@ -6,7 +6,9 @@ public class Calculator {
 		/*
 		 * This is an addition function which adds 2 numbers 
                    This function add only int number
-               this is conflict problem 
+                   this is a addtion code test for merge conflict
+				   This function add only int number
+                   this is a addtion code test for merge conflict
 
 		 */
 		int Result;
