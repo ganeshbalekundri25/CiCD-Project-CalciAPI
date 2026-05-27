@@ -6,6 +6,7 @@ public class Calculator {
 		/*
 		 * This is an addition function which adds 2 numbers 
                    This function add only int number
+				   nikhil 
 		 */
 		int Result;
 		Result=Num1+Num2;
