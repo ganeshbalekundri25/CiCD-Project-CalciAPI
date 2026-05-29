@@ -5,7 +5,7 @@ public class Calculator {
 	{
 		/*
 		 * This is an addition function which adds 2 numbers 
-                   This function add only int number
+                   This function add only int number. My new change
 		 */
 		int Result;
 		Result=Num1+Num2;
