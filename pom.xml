@@ -4,7 +4,7 @@
 
   <groupId>Rahitech_DevOpsBatch</groupId>
   <artifactId>CalculatorAPI</artifactId>
-  <version>2.1</version>
+  <version>2.2</version>
   <packaging>jar</packaging>
 
   <name>CalculatorAPI</name>
@@ -28,7 +28,7 @@
   		<repository>
   			<id>MyReleaseRepo</id>
   			<name>MyRepo</name>
-  			<url>http://localhost:8081/repository/MavenRepo/</url>
+  			<url>http://localhost:8081/repository/MavenRepository/</url>
   		</repository>
   </distributionManagement>
 </project>
