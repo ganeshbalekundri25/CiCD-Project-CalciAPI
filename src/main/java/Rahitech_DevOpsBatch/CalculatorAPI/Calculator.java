@@ -10,4 +10,10 @@ public class Calculator {
 		Result=Num1+Num2;
 		return Result;
 	}
+	public int Sustraction (int Num1,int Num2)
+	{
+		int Result;
+		Result=Num1-Num2;
+		return Result;
+	}
 }
