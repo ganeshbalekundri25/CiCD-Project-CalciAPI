@@ -28,7 +28,7 @@
   		<repository>
   			<id>MyReleaseRepo</id>
   			<name>MyRepo</name>
-  			<url>http://localhost:8081/repository/MavenRepository/</url>
+  			<url>http://localhost:8081/repository/MavenRepo/</url>
   		</repository>
   </distributionManagement>
 </project>
