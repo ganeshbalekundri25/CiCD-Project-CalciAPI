@@ -1,4 +1,4 @@
-package Rahitech_DevOpsBatch.CalculatorAPI;
+package Ganesh_Blk.CalculatorAPI;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -7,19 +7,23 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestAddition {
+import Ganesh_Blk.CalculatorAPI.Calculator;
+
+public class TestCases {
 
 	/*
 	 * Pre-requisite:
 	 * Create an object of Calculator class
 	 * Testcase1:
-	 * 1. Test Addition with Positive numbers
+	 * 1. Test Case with Positive numbers
 	 * TestCas2:
-	 * 1. Test Addition with 1 Positive number and 1 Negative number
+	 * 1. Test Case with 1 Positive number and 1 Negative number
 	 * Testcase3:
-	 * Test Additon with 2 Negative numbers
+	 * Test Case with 2 Negative numbers
 	 * Testcase4:
-	 * Test Adddition with 0 and non-zero value
+	 * Test Case with 0 and non-zero value
+	 * TestCase 5:
+	 * Test Case with both zero numbers 
 	 * Post-Requisite:
 	 * Set Calculator class object to NULL
 	 */

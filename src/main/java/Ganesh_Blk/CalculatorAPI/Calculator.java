@@ -1,4 +1,4 @@
-package Rahitech_DevOpsBatch.CalculatorAPI;
+package Ganesh_Blk.CalculatorAPI;
 
 public class Calculator {
 	public int Addition(int Num1,int Num2)
