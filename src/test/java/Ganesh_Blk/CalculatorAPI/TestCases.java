@@ -163,7 +163,7 @@ public class TestCases {
 	{
 		System.out.println("I am in Testcase 14");
 		ActualResult=Calc.Multiplication(-10, -5);
-		Assert.assertEquals(ActualResult, -50,"Multiplication is working with Both Negative Numbers");
+		Assert.assertEquals(ActualResult, 50,"Multiplication is working with Both Negative Numbers");
 	}
 	@Test(priority=15)
 	public void TestMultiplicationWithBothPositiveNumbers()
