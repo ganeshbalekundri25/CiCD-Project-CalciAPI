@@ -15,4 +15,11 @@ public class Calculator {
 		Result=Num1-Num2;
 		return Result;
 	}
+	// Multiplication Function
+	public int Multiplication(int Num1, int Num2)
+	{
+		int Result ;
+		Result = Num1*Num2;
+		return Result;
+	}
 }
