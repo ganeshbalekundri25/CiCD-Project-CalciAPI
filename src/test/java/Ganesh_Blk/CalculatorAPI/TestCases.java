@@ -96,6 +96,48 @@ public class TestCases {
 		ActualResult=Calc.Addition(0, 0);
 		Assert.assertEquals(ActualResult, 0,"Addition is not working with both numbers as 0");
 	}
+	@Test(priority=6)
+	public void TestSubstractionWithBothNumbersAsZero()
+	{
+		System.out.println("I am in Testcase 6");
+		ActualResult=Calc.Substraction(0, 0);
+		Assert.assertEquals(ActualResult, 0,"Substraction is working with both numbers as 0");
+	}
+	@Test(priority=7)
+	public void TestSubstractionWithOnePsitiveNumberAndOneNegativeNumber()
+	{
+		System.out.println("I am in Testcase 7");
+		ActualResult=Calc.Substraction(10, -5);
+		Assert.assertEquals(ActualResult, 15,"Substraction is working with One Positive Number And One Negative Number");
+	}
+	@Test(priority=8)
+	public void TestSubstractionWithBothNegativeNumbers()
+	{
+		System.out.println("I am in Testcase 8");
+		ActualResult=Calc.Substraction(-10, -5);
+		Assert.assertEquals(ActualResult, -5,"Substraction is working with Both Negative Numbers");
+	}
+	@Test(priority=9)
+	public void TestSubstractionWithBothPositiveNumbers()
+	{
+		System.out.println("I am in Testcase 9");
+		ActualResult=Calc.Substraction(10, 5);
+		Assert.assertEquals(ActualResult, 5,"Substraction is working with Both Positive Numbers");
+	}
+	@Test(priority=10)
+	public void TestSubstractionWithOnePsitiveNumberAndZero()
+	{
+		System.out.println("I am in Testcase 10");
+		ActualResult=Calc.Substraction(10, 0);
+		Assert.assertEquals(ActualResult, 10,"Substraction is working with One Positive Number And Zero");
+	}
+	@Test(priority=11)
+	public void TestSubstractionWithOneNegativeNumberAndZero()
+	{
+		System.out.println("I am in Testcase 10");
+		ActualResult=Calc.Substraction(-10, 0);
+		Assert.assertEquals(ActualResult, -10,"Substraction is working with One Negavtive Number And Zero");
+	}
 	@BeforeClass
 	public void CreateObject()
 	{
