@@ -44,6 +44,8 @@ public class TestCases {
 		System.out.println("I am in After class");
 		Calc=null;
 	}
+	
+	// ADDITIN UNIT TEST CASES
 	@Test(priority=1)
 	public void TestAdditionWithPositiveNumbers()
 	{
@@ -96,6 +98,8 @@ public class TestCases {
 		ActualResult=Calc.Addition(0, 0);
 		Assert.assertEquals(ActualResult, 0,"Addition is not working with both numbers as 0");
 	}
+	
+	//SUBSTRACTION UNIT TEST CASES
 	@Test(priority=6)
 	public void TestSubstractionWithBothNumbersAsZero()
 	{
@@ -137,6 +141,43 @@ public class TestCases {
 		System.out.println("I am in Testcase 10");
 		ActualResult=Calc.Substraction(-10, 0);
 		Assert.assertEquals(ActualResult, -10,"Substraction is working with One Negavtive Number And Zero");
+	}
+	
+	// MULTIPLICATION UNIT TEST CASES
+	@Test(priority=12)
+	public void TestMultiplicationWithBothNumbersAsZero()
+	{
+		System.out.println("I am in Testcase 12");
+		ActualResult=Calc.Multiplication(0, 0);
+		Assert.assertEquals(ActualResult, 0,"Multiplication is working with both numbers as 0");
+	}
+	@Test(priority=13)
+	public void TestMultiplicationWithOnePsitiveNumberAndOneNegativeNumber()
+	{
+		System.out.println("I am in Testcase 13");
+		ActualResult=Calc.Multiplication(10, -5);
+		Assert.assertEquals(ActualResult, -50,"Multiplication is working with One Positive Number And One Negative Number");
+	}
+	@Test(priority=14)
+	public void TestMultiplicationWithBothNegativeNumbers()
+	{
+		System.out.println("I am in Testcase 14");
+		ActualResult=Calc.Multiplication(-10, -5);
+		Assert.assertEquals(ActualResult, -50,"Multiplication is working with Both Negative Numbers");
+	}
+	@Test(priority=15)
+	public void TestMultiplicationWithBothPositiveNumbers()
+	{
+		System.out.println("I am in Testcase 15");
+		ActualResult=Calc.Multiplication(10, 5);
+		Assert.assertEquals(ActualResult, 50,"Multiplication is working with Both Positive Numbers");
+	}
+	@Test(priority=16)
+	public void TestMultiplicationWithOnePsitiveNumberAndZero()
+	{
+		System.out.println("I am in Testcase 16");
+		ActualResult=Calc.Multiplication(10, 0);
+		Assert.assertEquals(ActualResult, 0,"Substraction is working with One Positive Number And Zero");
 	}
 	@BeforeClass
 	public void CreateObject()
