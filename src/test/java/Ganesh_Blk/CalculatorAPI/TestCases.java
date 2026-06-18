@@ -179,6 +179,34 @@ public class TestCases {
 		ActualResult=Calc.Multiplication(10, 0);
 		Assert.assertEquals(ActualResult, 0,"Substraction is working with One Positive Number And Zero");
 	}
+	// DIVISION UNIT TEST CASES
+	@Test(expectedExceptions = ArithmeticException.class)
+	public void TestDivisionWithBothNumbersAsZero()
+	{
+	    System.out.println("I am in Testcase 17");
+	    Calc.Division(0, 0);
+	}
+	@Test(priority=18)
+	public void TestDivisionWithOnePsitiveNumberAndOneNegativeNumber()
+	{
+		System.out.println("I am in Testcase 18");
+		ActualResult=Calc.Division(10, -5);
+		Assert.assertEquals(ActualResult, -2,"Division is working with One Positive Number And One Negative Number");
+	}
+	@Test(priority=19)
+	public void TestDivisionWithBothNegativeNumbers()
+	{
+		System.out.println("I am in Testcase 19");
+		ActualResult=Calc.Division(-10, -5);
+		Assert.assertEquals(ActualResult, 2,"Division is working with Both Negative Numbers");
+	}
+	@Test(priority=20)
+	public void TestDivisionWithBothPositiveNumbers()
+	{
+		System.out.println("I am in Testcase 20");
+		ActualResult=Calc.Division(10, 5);
+		Assert.assertEquals(ActualResult, 2,"Division is working with Both Positive Numbers");
+	}
 	@BeforeClass
 	public void CreateObject()
 	{
