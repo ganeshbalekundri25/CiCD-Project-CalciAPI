@@ -166,7 +166,7 @@ MavenRepo
 Rename your screenshots in the `Assets` folder to match the names below, or edit the paths.
 
 ### Jenkins Job: Calculator_API
-![Jenkins Job](Assets/Screenshot 2026-11-23 092207.png)
+<img src="Assets/Screenshot 2026-11-23 092229.png" alt="Jenkins Build History" width="800">
 
 ### Jenkins Build History
 ![Build History](Assets/Screenshot 2026-11-23 092229.png)
