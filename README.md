@@ -166,19 +166,19 @@ MavenRepo
 Rename your screenshots in the `Assets` folder to match the names below, or edit the paths.
 
 ### Jenkins Job: Calculator_API
-![Jenkins Job](Assets/jenkins-job.png)
+![Jenkins Job](Assets/Screenshot 2026-11-23 092207.png)
 
 ### Jenkins Build History
-![Build History](Assets/jenkins-build-history.png)
+![Build History](Assets/Screenshot 2026-11-23 092229.png)
 
 ### Jenkins Console Output (BUILD SUCCESS)
-![Console Output](Assets/jenkins-console-output.png)
+![Console Output](Assets/Screenshot 2026-11-23 092105.png)
 
 ### Nexus Repository: Deployed Artifact
-![Nexus Repository](Assets/nexus-repository.png)
+![Nexus Repository](Assets/Screenshot 2026-11-23 092045.png)
 
 ### Maven settings.xml (Nexus Server Config)
-![settings.xml](Assets/settings-xml.png)
+![settings.xml](Assets/Screenshot 2026-11-23 093147.png)
 
 > The `settings.xml` screenshot shows plain-text credentials. Replace it with a redacted version before publishing (see below).
 
