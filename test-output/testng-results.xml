@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-18T15:34:59 IST" name="Default suite" finished-at="2026-06-18T15:35:00 IST" duration-ms="161">
+    <groups>
+    </groups>
+    <test started-at="2026-06-18T15:34:59 IST" name="Default test" finished-at="2026-06-18T15:35:00 IST" duration-ms="161">
+      <class name="Ganesh_Blk.CalculatorAPI.TestCases">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="CreateObject" finished-at="2026-06-18T15:34:59 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestDivisionWithBothNumbersAsZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestDivisionWithBothNumbersAsZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="7" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[Cannot divide by 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: Cannot divide by 0
+at Ganesh_Blk.CalculatorAPI.Calculator.Division(Calculator.java:34)
+at Ganesh_Blk.CalculatorAPI.TestCases.TestDivisionWithBothNumbersAsZero(TestCases.java:187)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivisionWithBothNumbersAsZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestAdditionWithPositiveNumbers()[pri:1, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestAdditionWithPositiveNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithPositiveNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestAdditionWithOnePositiveNumberOneNegativeNumber()[pri:2, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestAdditionWithOnePositiveNumberOneNegativeNumber" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithOnePositiveNumberOneNegativeNumber -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestAdditionWithTwoNegativeNumbers()[pri:3, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestAdditionWithTwoNegativeNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithTwoNegativeNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestAdditionWithZeroAndNonZeroNumbers()[pri:4, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestAdditionWithZeroAndNonZeroNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithZeroAndNonZeroNumbers -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestAdditionWithBothNumbersAsZero()[pri:5, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestAdditionWithBothNumbersAsZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithBothNumbersAsZero -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestSubstractionWithBothNumbersAsZero()[pri:6, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestSubstractionWithBothNumbersAsZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubstractionWithBothNumbersAsZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestSubstractionWithOnePsitiveNumberAndOneNegativeNumber()[pri:7, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestSubstractionWithOnePsitiveNumberAndOneNegativeNumber" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubstractionWithOnePsitiveNumberAndOneNegativeNumber -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestSubstractionWithBothNegativeNumbers()[pri:8, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestSubstractionWithBothNegativeNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubstractionWithBothNegativeNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestSubstractionWithBothPositiveNumbers()[pri:9, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestSubstractionWithBothPositiveNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubstractionWithBothPositiveNumbers -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestSubstractionWithOnePsitiveNumberAndZero()[pri:10, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestSubstractionWithOnePsitiveNumberAndZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubstractionWithOnePsitiveNumberAndZero -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestSubstractionWithOneNegativeNumberAndZero()[pri:11, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestSubstractionWithOneNegativeNumberAndZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubstractionWithOneNegativeNumberAndZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestMultiplicationWithBothNumbersAsZero()[pri:12, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestMultiplicationWithBothNumbersAsZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithBothNumbersAsZero -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestMultiplicationWithOnePsitiveNumberAndOneNegativeNumber()[pri:13, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestMultiplicationWithOnePsitiveNumberAndOneNegativeNumber" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithOnePsitiveNumberAndOneNegativeNumber -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestMultiplicationWithBothNegativeNumbers()[pri:14, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestMultiplicationWithBothNegativeNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithBothNegativeNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestMultiplicationWithBothPositiveNumbers()[pri:15, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestMultiplicationWithBothPositiveNumbers" finished-at="2026-06-18T15:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithBothPositiveNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestMultiplicationWithOnePsitiveNumberAndZero()[pri:16, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="TestMultiplicationWithOnePsitiveNumberAndZero" finished-at="2026-06-18T15:35:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithOnePsitiveNumberAndZero -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:34:59 IST" name="SetResToZero" finished-at="2026-06-18T15:34:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:35:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="SetResToZero" finished-at="2026-06-18T15:35:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method signature="TestDivisionWithOnePsitiveNumberAndOneNegativeNumber()[pri:18, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="TestDivisionWithOnePsitiveNumberAndOneNegativeNumber" finished-at="2026-06-18T15:35:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivisionWithOnePsitiveNumberAndOneNegativeNumber -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:35:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestDivisionWithBothNegativeNumbers()[pri:19, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="TestDivisionWithBothNegativeNumbers" finished-at="2026-06-18T15:35:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivisionWithBothNegativeNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="SetResToZero" finished-at="2026-06-18T15:35:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:35:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method signature="TestDivisionWithBothPositiveNumbers()[pri:20, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="TestDivisionWithBothPositiveNumbers" finished-at="2026-06-18T15:35:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivisionWithBothPositiveNumbers -->
+        <test-method is-config="true" signature="SetResToZero()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="SetResToZero" finished-at="2026-06-18T15:35:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetResToZero -->
+        <test-method is-config="true" signature="RunAfterEveryTestCase()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="RunAfterEveryTestCase" finished-at="2026-06-18T15:35:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryTestCase -->
+        <test-method is-config="true" signature="SetObjToNull()[pri:0, instance:Ganesh_Blk.CalculatorAPI.TestCases@76505305]" started-at="2026-06-18T15:35:00 IST" name="SetObjToNull" finished-at="2026-06-18T15:35:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetObjToNull -->
+      </class> <!-- Ganesh_Blk.CalculatorAPI.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

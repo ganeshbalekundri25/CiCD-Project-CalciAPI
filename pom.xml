@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Ganesh_Blk</groupId>
-  <artifactId>CalculatorAPI_Div</artifactId>
-  <version>4.0</version>
+  <artifactId>CalculatorAPI</artifactId>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>CalculatorAPI</name>
